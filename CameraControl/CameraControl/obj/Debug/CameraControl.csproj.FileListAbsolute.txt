@@ -1,0 +1,30 @@
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\bin\Debug\CameraControl.exe.config
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\bin\Debug\CameraControl.exe
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\bin\Debug\CameraControl.pdb
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.csprojAssemblyReference.cache
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.DateTimeZoneSetting.resources
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.RecordFuncCardSetting.resources
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.MainWindow.resources
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.RemoteCapture.resources
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.Progress.resources
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.CameraSetting.resources
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.Properties.Resources.resources
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.csproj.GenerateResource.cache
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.csproj.CoreCompileInputs.cache
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.exe
+C:\Users\Noah Jacinto\Downloads\EDSDK_v13.20.10_Windows\sample\CSharp\CameraControl\CameraControl\obj\Debug\CameraControl.pdb
+D:\Development\Photobooth-Application\CameraControl\CameraControl\bin\Debug\CameraControl.exe.config
+D:\Development\Photobooth-Application\CameraControl\CameraControl\bin\Debug\CameraControl.exe
+D:\Development\Photobooth-Application\CameraControl\CameraControl\bin\Debug\CameraControl.pdb
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.csprojAssemblyReference.cache
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.DateTimeZoneSetting.resources
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.RecordFuncCardSetting.resources
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.MainWindow.resources
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.RemoteCapture.resources
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.Progress.resources
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.CameraSetting.resources
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.Properties.Resources.resources
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.csproj.GenerateResource.cache
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.csproj.CoreCompileInputs.cache
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.exe
+D:\Development\Photobooth-Application\CameraControl\CameraControl\obj\Debug\CameraControl.pdb
