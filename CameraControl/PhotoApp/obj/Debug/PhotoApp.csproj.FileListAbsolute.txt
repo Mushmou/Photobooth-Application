@@ -17,3 +17,5 @@ D:\Development\Photobooth-Application\CameraControl\PhotoApp\obj\Debug\PhotoApp.
 D:\Development\Photobooth-Application\CameraControl\PhotoApp\obj\Debug\PhotoApp.csproj.CopyComplete
 D:\Development\Photobooth-Application\CameraControl\PhotoApp\obj\Debug\PhotoApp.exe
 D:\Development\Photobooth-Application\CameraControl\PhotoApp\obj\Debug\PhotoApp.pdb
+D:\Development\Photobooth-Application\CameraControl\PhotoApp\obj\Debug\Views\Home.g.cs
+D:\Development\Photobooth-Application\CameraControl\PhotoApp\obj\Debug\Views\Home.baml

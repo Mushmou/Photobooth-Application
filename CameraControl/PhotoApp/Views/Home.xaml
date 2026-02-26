@@ -1,0 +1,108 @@
+﻿<Page x:Class="PhotoApp.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PhotoApp"
+      mc:Ignorable="d" 
+      d:DesignWidth="1920" d:DesignHeight="1080"
+      xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+      xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+      Title="Home">
+
+    <Page.Resources>
+        <!-- Easter pastel colors -->
+        <SolidColorBrush x:Key="EasterPink" Color="#FFF4C2D7"/>
+        <SolidColorBrush x:Key="EasterBlue" Color="#FFCFE8FF"/>
+        <SolidColorBrush x:Key="EasterGreen" Color="#FFD6F5D6"/>
+        <SolidColorBrush x:Key="EasterPurple" Color="#FFE6D9FF"/>
+        <SolidColorBrush x:Key="EasterYellow" Color="#fefae0"/>
+
+        <!-- Rounded button style -->
+        <Style x:Key="EasterButton" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource EasterPink}"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="Padding" Value="16,10"/>
+            <Setter Property="Margin" Value="12,0"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="30"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Border Grid.Row="0" Background="{StaticResource EasterBlue}" Padding="20">
+            <TextBlock Text="🐰 Easter Photo Booth 🐰"
+                   FontSize="42"
+                   FontWeight="Bold"
+                   Foreground="Black"
+                   HorizontalAlignment="Center"/>
+        </Border>
+
+        <!-- Camera Preview -->
+        <Grid Grid.Row="1" Background="{StaticResource EasterGreen}">
+            <Border Grid.Row="1" BorderThickness="5" BorderBrush="{StaticResource EasterPurple}" Width="1050" Height="704">
+                <wfi:WindowsFormsHost x:Name="EvfHost" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            </Border>
+
+            <Image Source="pack://application:,,,/Shared/Icons/bunny.png"
+                   Width="120"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Bottom"
+                   Margin="0,0,200,0"
+                   IsHitTestVisible="False"/>
+            <Image Source="pack://application:,,,/Shared/Icons/pink-egg.png"
+                   Width="70"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="30,10,0,0"
+                   IsHitTestVisible="False"/>
+            <Image Source="pack://application:,,,/Shared/Icons/red-egg.png"
+                   Width="70"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Top"
+                   Margin="0,0,10,0"
+                   IsHitTestVisible="False"/>
+            <Image Source="pack://application:,,,/Shared/Icons/tree.png"
+                   Width="300"
+                   HorizontalAlignment="right"
+                   VerticalAlignment="Bottom"
+                   Margin="10,0,0,0"
+                   IsHitTestVisible="False"
+                   />
+            <Image Source="pack://application:,,,/Shared/Icons/tree.png"
+                   Width="300"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Bottom"
+                   Margin="10,0,0,0"
+                   IsHitTestVisible="False"
+                   />       
+        </Grid>
+
+        <!-- Buttons -->
+        <Grid Grid.Row="2" Background="{StaticResource EasterBlue}">
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <Button Style="{StaticResource EasterButton}" Content="📸 Take Picture 📸" FontSize="24" Width="240" Height="150" Click="TakePicture_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

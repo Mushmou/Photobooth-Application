@@ -7,19 +7,14 @@
         mc:Ignorable="d"
         xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
         xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="1080" Width="1920" Background="Transparent">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Horizontal" Margin="10">
-            <Button Content="Take Picture" Width="120" Margin="5" Click="TakePicture_Click"/>
-            <Button Content="Start EVF" Width="120" Margin="5" Click="StartEvf_Click"/>
-            <Button Content="Stop EVF" Width="120" Margin="5" Click="StopEvf_Click"/>
-        </StackPanel>
-
-        <wfi:WindowsFormsHost Grid.Row="1" x:Name="EvfHost"/>
+        <Grid Grid.Row="0">
+            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        </Grid>
     </Grid>
 </Window>
